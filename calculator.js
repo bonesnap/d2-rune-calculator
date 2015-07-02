@@ -55,23 +55,21 @@ function get_gomule()
 	{
 		$(this).find('tr td:first-child').each(function(index)
 		{
-			$('#' + (index + 1)).val($(this).html());
+			$('#rune' + (index + 1)).val($(this).html());
 		});
-	});
-	
-	$('.gomule').load('RunesReport.html table:eq(101)', function()
+
+	}).load('RunesReport.html table:eq(101)', function()
 	{
 		$(this).find('tr td:first-child').each(function(index)
 		{
-			$('#' + (index + 12)).val($(this).html());
+			$('#rune' + (index + 12)).val($(this).html());
 		});
-	});
-	
-	$('.gomule').load('RunesReport.html table:eq(102)', function()
+
+	}).load('RunesReport.html table:eq(102)', function()
 	{
 		$(this).find('tr td:first-child').each(function(index)
 		{
-			$('#' + (index + 23)).val($(this).html());
+			$('#rune' + (index + 23)).val($(this).html());
 		});
 	});
 }

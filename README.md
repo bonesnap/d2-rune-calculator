@@ -23,12 +23,12 @@ Reads the GoMule report file and loads the values into the form.
 
 Runs the calculation and updates the fields on the form with their new calculated values (basically the leftover runes).
 
-### Clear ###
-
-Clears the form as if you had opened the project for the first time.
-
 ### Reset ###
 
 Clears the form but replaces the original values into their respective fields. Useful for when you want to dream and say to yourself, "So if I had a Ber rune...".
+
+### Clear ###
+
+Clears the form as if you had opened the project for the first time.
 
 The project is licensed under the [GNU GPLv3](http://www.gnu.org/licenses/gpl.html) and is free software.

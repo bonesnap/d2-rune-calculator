@@ -26,14 +26,13 @@ body
 
 form
 {
-    margin : 0 auto;
-    width  : 200px;
+    margin : 0 auto 10px;
+    width  : 185px;
 }
 
 div.buttons
 {
-    margin : 0 auto;
-    width  : 285px;
+    text-align : center;
 }
 
 label
@@ -60,11 +59,9 @@ input[type=button]
     font-family : 'Roboto Condensed', sans-serif;
     font-size   : 15px;
     line-height : 15px;
-    margin      : 0 auto;
     padding     : 3px 10px;
     text-shadow : 0 1px 0 #FFFFFF;
-    white-space : nowrap;
-    width       : auto;
+    width       : 100px;
 }
 
 input[type=button]:hover

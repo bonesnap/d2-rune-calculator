@@ -14,65 +14,65 @@ figure, figcaption, footer, header,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video
 {
-    margin: 0;
-    padding: 0;
+    margin  : 0;
+    padding : 0;
 }
 
 body
 {
-    font-family: 'Roboto Condensed', sans-serif;
-    padding-top: 20px;
+    font-family : 'Roboto Condensed', sans-serif;
+    padding-top : 20px;
 }
 
 form
 {
-    margin: 0 auto;
-    width: 200px;
+    margin : 0 auto;
+    width  : 200px;
 }
 
 div.buttons
 {
-    margin: 0 auto;
-    width: 285px;
+    margin : 0 auto;
+    width  : 285px;
 }
 
 label
 {
-    display: inline-block;
-    width: 45px;
+    display : inline-block;
+    width   : 45px;
 }
 
 input[type=text]
 {
-    border: 1px solid #DDDDDD;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-bottom: 2px;
-    padding: 3px;
-    width: 100px;
+    border        : 1px solid #DDDDDD;
+    font-family   : 'Roboto Condensed', sans-serif;
+    margin-bottom : 2px;
+    padding       : 3px;
+    width         : 100px;
 }
 
 input[type=button]
 {
-    background: linear-gradient(#FFFFFF, #EDEDED);
-    border: 1px solid #BBBBBB;
-    color: #555555;
-    cursor: pointer;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 15px;
-    line-height: 15px;
-    margin: 0 auto;
-    padding: 3px 10px;
-    text-shadow: 0 1px 0 #FFFFFF;
-    white-space: nowrap;
-    width: auto;
+    background  : linear-gradient(#FFFFFF, #EDEDED);
+    border      : 1px solid #BBBBBB;
+    color       : #555555;
+    cursor      : pointer;
+    font-family : 'Roboto Condensed', sans-serif;
+    font-size   : 15px;
+    line-height : 15px;
+    margin      : 0 auto;
+    padding     : 3px 10px;
+    text-shadow : 0 1px 0 #FFFFFF;
+    white-space : nowrap;
+    width       : auto;
 }
 
 input[type=button]:hover
 {
-    color: #000000;
+    color : #000000;
 }
 
 div.gomule
 {
-    display: none;
+    display : none;
 }

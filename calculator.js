@@ -1,8 +1,3 @@
-$(document).ready(function()
-{
-	$('#1').focus();
-});
-
 function clear_runes()
 {
 	$('input[type=text]').val('').css({'background-color' : '#FFF', 'border-color' : '#DDD'}).first().focus();

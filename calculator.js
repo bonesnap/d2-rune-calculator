@@ -18,12 +18,16 @@ function calculate_runes()
 {
 	var runes = $('input[type=text]');
 
-	//Sets any empty runes to 0
+	//Sets any empty runes to 0 and copies its original value to the next span tag
 	runes.each(function()
 	{
 		if($(this).val().length == 0)
+		{
 			$(this).val('0');
+		}
+
 		$(this).next('span').html($(this).val());
+
 	});
 	
 	for(var i = 0; i < runes.length - 1; i++)
@@ -31,7 +35,9 @@ function calculate_runes()
 		var count = 0;
 		
 		if(runes[i].value == 0)
+		{
 			continue;
+		}
 		
 		//The number of the next level of rune made
 		count = (i < 20) ? Math.floor(runes[i].value / 3) : Math.floor(runes[i].value / 2);
@@ -41,12 +47,22 @@ function calculate_runes()
 		
 		//Add value to the next rune
 		if(count > 0 && i != runes.length)
+		{
 			runes[i + 1].value = (count + parseInt(runes[i + 1].value));
+		}
 	}
-	
-	for(var i = 0; i < runes.length; i++)
+
+	for(i = 0; i < runes.length; i++)
+	{
 		if(runes[i].value != 0)
-			$('#' + (i + 1)).css({'background-color' : '#7AD77A', 'border' : '1px solid #000'});
+		{
+			$('#rune' + (i + 1)).css(
+			{
+				'background-color': '#7AD77A',
+				'border':           '1px solid #000000'
+			});
+		}
+	}
 }
 
 function get_gomule()

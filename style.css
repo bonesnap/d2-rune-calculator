@@ -24,16 +24,16 @@ body
     padding-top: 20px;
 }
 
-div.main
+form
 {
-    margin: 0 auto 35px;
+    margin: 0 auto;
     width: 200px;
 }
 
 div.buttons
 {
     margin: 0 auto;
-    width: 250px;
+    width: 285px;
 }
 
 label
@@ -45,17 +45,16 @@ label
 input[type=text]
 {
     border: 1px solid #DDDDDD;
-    border-radius: 2px;
     font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 2px;
     padding: 3px;
     width: 100px;
 }
 
 input[type=button]
 {
-    background: url(gradient.png) repeat-x scroll left top #F2F2F2;
+    background: linear-gradient(#FFFFFF, #EDEDED);
     border: 1px solid #BBBBBB;
-    border-radius: 15px;
     color: #555555;
     cursor: pointer;
     font-family: 'Roboto Condensed', sans-serif;
@@ -71,7 +70,6 @@ input[type=button]
 input[type=button]:hover
 {
     color: #000000;
-    border-color: #666666;
 }
 
 div.gomule

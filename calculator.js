@@ -16,7 +16,7 @@ function reset_runes()
 
 function calculate_runes()
 {
-	var runes = $('input[type=text]');
+	var runes = $('input[type=number]');
 
 	//Sets any empty runes to 0 and copies its original value to the next span tag
 	runes.each(function()

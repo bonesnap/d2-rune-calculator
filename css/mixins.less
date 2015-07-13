@@ -18,3 +18,14 @@
     -webkit-column-gap: @gap;
     column-gap: @gap;
 }
+
+.Rune-Image(@nth-type; @horizontal; @vertical)
+{
+    &:nth-of-type(@{nth-type})
+    {
+        span.rune-image
+        {
+            background: url('../images/rune-sprite.png') no-repeat @horizontal @vertical @black;
+        }
+    }
+}

@@ -42,6 +42,7 @@ b,
 u,
 i,
 center,
+input,
 dl,
 dt,
 dd,
@@ -91,16 +92,29 @@ form {
   columns: auto 3;
   margin: 0 auto 10px;
 }
-form label {
+form div.group label {
   display: inline-block;
   width: 45px;
 }
-form input[type=text] {
-  border: 1px solid #dddddd;
+form div.group span.rune-image {
+  display: inline-block;
+  height: 35px;
+  vertical-align: middle;
+  width: 35px;
+}
+form div.group input[type=text],
+form div.group input[type=number] {
+  border-bottom: 1px solid #000000;
+  border-left: none;
+  border-right: 1px solid #000000;
+  border-top: 1px solid #000000;
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  height: 35px;
   margin-bottom: 2px;
   padding: 3px;
-  width: 100px;
+  vertical-align: top;
+  width: 150px;
 }
 input[type=button] {
   background: linear-gradient(#ffffff, #ededed);
@@ -116,6 +130,9 @@ input[type=button] {
 }
 input[type=button]:hover {
   color: #000000;
+}
+div.group:nth-of-type(1) span.rune-image {
+  background: url('../images/rune-sprite.png') no-repeat 0 0 #000000;
 }
 body {
   font-family: 'Roboto Condensed', sans-serif;

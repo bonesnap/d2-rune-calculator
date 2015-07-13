@@ -8,7 +8,7 @@ function reset_runes()
 {
 	$('span').each(function()
 	{
-		$(this).prev('input[type=text]').val($(this).html()).css({'background-color' : '#FFF', 'border-color' : '#DDD'});
+		$(this).prev('input[type=number]').val($(this).html()).css({'background-color' : '#FFF', 'border-color' : '#DDD'});
 		$(this).html('');
 	});
 	$('#1').focus();

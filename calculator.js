@@ -110,7 +110,7 @@ $(document).ready(function()
 				// Allow: Ctrl+X
 			(event.keyCode == 88 && event.ctrlKey === true) ||
 				// Allow: home, end, left, right
-			(event.keyCode >= 35 && event.keyCode <= 39))
+			(event.keyCode >= 35 && event.keyCode <= 40))
 		{
 			return;
 		}

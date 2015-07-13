@@ -116,7 +116,7 @@ form div.group input[type=number] {
   height: 35px;
   padding: 3px;
   vertical-align: top;
-  width: 200px;
+  width: 500px;
 }
 input[type=button] {
   background: linear-gradient(#ffffff, #ededed);

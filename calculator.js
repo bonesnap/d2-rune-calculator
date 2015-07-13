@@ -1,6 +1,6 @@
 function clear_runes()
 {
-	$('input[type=text]').val('').css({'background-color' : '#FFF', 'border-color' : '#DDD'}).first().focus();
+	$('input[type=number]').val('').css({'background-color' : '#FFF', 'border-color' : '#DDD'}).first().focus();
 	$('span').html('');
 }
 

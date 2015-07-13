@@ -89,3 +89,14 @@ function get_gomule()
 		});
 	});
 }
+
+$(document).ready(function()
+{
+	$('input[type=number]').change(function(event)
+	{
+		if($(this).val() == '0')
+		{
+			$(this).val('');
+		}
+	});
+});

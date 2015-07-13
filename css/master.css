@@ -86,11 +86,10 @@ video {
   padding: 0;
 }
 form {
-  -moz-column-count: 3;
-  -webkit-column-count: 3;
-  column-count: 3;
+  -moz-columns: auto 3;
+  -webkit-columns: auto 3;
+  columns: auto 3;
   margin: 0 auto 10px;
-  width: 185px;
 }
 form label {
   display: inline-block;

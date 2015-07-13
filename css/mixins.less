@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-.Column-Count(@count)
+.Columns(@width; @count)
 {
-    -moz-column-count: @count;
-    -webkit-column-count: @count;
-    column-count: @count;
+    -moz-columns: @width @count;
+    -webkit-columns: @width @count;
+    columns: @width @count;
 }

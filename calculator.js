@@ -1,6 +1,6 @@
 function clear_runes()
 {
-	$('input[type=number]').val('').css({'background-color' : '#FFF', 'border-color' : '#DDD'}).first().focus();
+	$('input[type=number]').val('').css({'background-color' : '#FFFFFF', 'border-color' : '#000000'}).first().focus();
 	$('span').html('');
 }
 
@@ -8,7 +8,7 @@ function reset_runes()
 {
 	$('span').each(function()
 	{
-		$(this).prev('input[type=number]').val($(this).html()).css({'background-color' : '#FFF', 'border-color' : '#DDD'});
+		$(this).prev('input[type=number]').val($(this).html()).css({'background-color' : '#FFFFFF', 'border-color' : '#000000'});
 		$(this).html('');
 	});
 	$('#1').focus();

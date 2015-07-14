@@ -1,6 +1,6 @@
 function clear_runes()
 {
-	$('input[type=text]').val('').css({'background-color' : '#FFF', 'border-color' : '#DDD'}).first().focus();
+	$('input[type=number]').val('').css({'background-color' : '#FFFFFF', 'border-color' : '#000000'}).first().focus();
 	$('span').html('');
 }
 
@@ -8,7 +8,7 @@ function reset_runes()
 {
 	$('span').each(function()
 	{
-		$(this).prev('input[type=text]').val($(this).html()).css({'background-color' : '#FFF', 'border-color' : '#DDD'});
+		$(this).prev('input[type=number]').val($(this).html()).css({'background-color' : '#FFFFFF', 'border-color' : '#000000'});
 		$(this).html('');
 	});
 	$('#1').focus();
@@ -16,7 +16,7 @@ function reset_runes()
 
 function calculate_runes()
 {
-	var runes = $('input[type=text]');
+	var runes = $('input[type=number]');
 
 	//Sets any empty runes to 0 and copies its original value to the next span tag
 	runes.each(function()
@@ -89,3 +89,35 @@ function get_gomule()
 		});
 	});
 }
+
+$(document).ready(function()
+{
+	$('input[type=number]').change(function(event)
+	{
+		if($(this).val() == '0')
+		{
+			$(this).val('');
+		}
+
+	}).keydown(function(event)
+	{
+		// Allow: backspace, delete, tab
+		if($.inArray(event.keyCode, [46, 8, 9]) !== -1 ||
+				// Allow: Ctrl+A
+			(event.keyCode == 65 && event.ctrlKey === true) ||
+				// Allow: Ctrl+C
+			(event.keyCode == 67 && event.ctrlKey === true) ||
+				// Allow: Ctrl+X
+			(event.keyCode == 88 && event.ctrlKey === true) ||
+				// Allow: home, end, left, right
+			(event.keyCode >= 35 && event.keyCode <= 40))
+		{
+			return;
+		}
+
+		if((event.shiftKey || (event.keyCode < 48 || event.keyCode > 57)) && (event.keyCode < 96 || event.keyCode > 105))
+		{
+			event.preventDefault();
+		}
+	});
+});

@@ -1,0 +1,24 @@
+.Box-Sizing()
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Columns(@width; @count)
+{
+    -moz-columns: @width @count;
+    -webkit-columns: @width @count;
+    columns: @width @count;
+}
+
+.Rune-Image(@nth-type; @horizontal; @vertical)
+{
+    &:nth-of-type(@{nth-type})
+    {
+        span.rune-image
+        {
+            background: url('../images/rune-sprite.png') no-repeat @horizontal @vertical @black;
+        }
+    }
+}

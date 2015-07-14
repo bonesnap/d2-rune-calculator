@@ -1,6 +1,6 @@
 # INTRODUCTION #
 
-Like many Diablo II players I horde every rune I find. I have a GoMule stash dedicated to runes and it has over 3,000 runes stashed away. The vast majority of them are low or mid runes but there are also some high runes as well. While I have some of the many desired runewords (such as Enigma, Grief, Infinity, etc.) there are still many others that I would like to obtain (Beast, Fury, Phoenix, Doom, to name a few). In my quest to do so I found myself watching my rune stash to keep track of certain runes to see what I needed to get a certain runeword. Due to the very large number of runes across all the different types, I wanted an easy way to calculate how high I could "cube" my runes (assuming I had the gems). That is how this project came to be.
+Like many Diablo II players I hoard every rune I find. I have a GoMule stash dedicated to runes and it has over 3,000 runes stashed away. The vast majority of them are low or mid runes but there are also some high runes as well. While I have some of the many desired runewords (such as Enigma, Grief, Infinity, etc.) there are still many others that I would like to obtain (Beast, Fury, Phoenix, Doom, to name a few). In my quest to do so I found myself watching my rune stash to keep track of certain runes to see what I needed to get a certain runeword. Due to the very large number of runes across all the different types, I wanted an easy way to calculate how high I could "cube" my runes (assuming I had the gems). That is how this project came to be.
 
 
 ## File Usage ##

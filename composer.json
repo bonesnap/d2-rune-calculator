@@ -1,4 +1,7 @@
 {
     "name": "bonesnap/rune-calculator",
-    "description": "Calculate your high runes from your low runes."
+    "description": "Calculate your high runes from your low runes.",
+    "require" : {
+        "php": ">= 5.4.0"
+    }
 }

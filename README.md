@@ -5,9 +5,9 @@ Like many Diablo II players I hoard every rune I find. I have a GoMule stash ded
 
 ## File Usage ##
 
-Everything is client-side, so simply [download](https://bitbucket.org/Bonesnap/rune-calculator/downloads) the latest version into a folder on your computer. Currently, the application expects a .html file named RunesReport.html (obviously the name of my runes stash - perhaps yours, too!). Generate the report via GoMule and place the file (you may have to rename it if your stash is named something else) into the same folder that you downloaded the application to.
+Everything is client-side, so simply clone the latest version into a folder on your computer. Currently, the application expects a `html` file named `RunesReport.html` (obviously the name of my runes stash - perhaps yours, too!). Generate the report via GoMule and place the file (you may have to rename it if your stash is named something else) into the same folder that you cloned the repo to.
 
-Open the index.html in your browser and click the **GoMule** button. This reads the GoMule report file and loads the corresponding values into the fields on the form. Don't worry if you don't have certain runes; the application will automatically fill in zeroes for any blank fields.
+Open the `index.html` in your browser and click the **GoMule** button. This reads the GoMule report file and loads the corresponding values into the fields on the form. Don't worry if you don't have certain runes; the application will automatically fill in zeroes for any blank fields.
 
 Then, click **Calculate**. You will see the original values appear next to their corresponding fields, and each field that has a value besides zero will be coloured green for easy viewing.
 
@@ -29,7 +29,7 @@ Clears the form as if you had opened the project for the first time.
 
 ### Reset ###
 
-Clears the form but replaces the original values into their respective fields. Useful for when you want to dream and say to yourself, "So if I had a Ber rune...".
+Clears the form but places the original values back into their respective fields. Useful for when you want to dream and say to yourself, "So if I had a Ber rune...".
 
 ## Manual Usage ##
 
@@ -37,7 +37,7 @@ You can also just simply fill in the fields with random numerical values and cli
 
 ## Browser Support ##
 
-This project uses modern HTML5 and CSS3 techniques and therefore should be used in a modern browser. Firefox, Chrome, Opera, and Safari (on OSX) should work correctly. IE10 is the minimum version of Internet Explorer. The site has *not* been optimized for mobile devices... yet.
+This project uses modern HTML5 and CSS3 techniques and therefore should be used in a modern browser. The application has *not* been optimized for mobile devices... yet.
 
 ## License ##
 
